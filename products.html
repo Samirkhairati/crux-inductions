@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Chic</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./assets/LogoCC.png" alt="slide image" class="slide">
+                <div class="logo-text">
+                    <div style="font-weight: 500;">Campus</div>
+                    <div class="logo-trade">Chic</div>
+                </div>
+            </a>
+        </div>
+        <div class="links">
+            <a href="./products.html">
+                <div class="nav-links">Shirts</div>
+            </a>
+            <a href="./products.html">
+                <div class="nav-links">Tees</div>
+            </a>
+            <a href="./products.html">
+                <div class="nav-links">Accessories</div>
+            </a>
+        </div>
+        <form method="POST" class="search" action="{{ url_for('search') }}">
+            <input class="form-control ml search searchbtn" type="search" placeholder="Search" aria-label="Search"
+                name="search">
+            <button class="btn searchbtn" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+        <div class="cart">
+            <a href="/cart">
+                <span class="fa-stack fa-2x has-badge cartbtn" data-count="1" href="/cart">
+                    <i content="5" class="fa fa-shopping-cart fa-stack-1x fa-inverse cart-num"></i>
+                </span>
+            </a>
+            <a href="/track_order">
+                <div class="nav-links">Track order</div>
+            </a>
+        </div>
+
+    </header>
+
+    <section class="latest">
+        <h1 class="latest-title">Latest Products</h1>
+        <div class="latest-flex">
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+            <div class="latest-block">
+                <div class="latest-content">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230624/y24W/6496fabeeebac147fc042957/-473Wx593H-465543048-navy-MODEL.jpg"
+                        alt="" class="latest-img">
+                    <div class="latest-name" style="margin-bottom: 5px;">Full Sleeve T shirt</div>
+                    <div class="latest-price">
+                        <span class="gold-price">INR 799</span>
+                        &nbsp;&nbsp;&nbsp; <!-- adds space -->
+                        <span style="text-decoration: line-through;">INR 1299</span>
+                    </div>
+                    <div class="latest-buy"><a href="./item.html">Buy Now</a></div>
+
+                </div>
+            </div>
+        </div>
+
+    <footer class="footer">
+        <div class="footer-flex">
+
+            <div class="footer-col" style="width:50%">
+                <div class="x-us">
+                    <span class="x-us-title">Mail us</span>
+                </div>
+                <div class="x-us-line"></div>
+                <div class="footer-details">campuschic24@gmail.com</div>
+            </div>
+
+            <div class="footer-col" style="width:50%">
+                <div class="x-us">
+                    <span class="x-us-title">Call us</span>
+                </div>
+                <div class="x-us-line"></div>
+                <div class="footer-details">+91 87690 80420</div>
+                <div class="footer-details">+91 85279 95341</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
