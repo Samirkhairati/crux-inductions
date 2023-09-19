@@ -13,7 +13,7 @@ function submit() {
         setCookie("username", username, 365);
         if (password != "" && password != null) {
             setCookie("password", password, 365);
-            window.location.href = "./home.html"
+            window.location.href = "./index.html"
         } 
         else {
             alert('Enter a password')
