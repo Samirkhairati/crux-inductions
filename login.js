@@ -10,8 +10,8 @@ function submit() {
     var password = document.getElementById("password").value;
 
     if (username != "" && username != null) {
-        setCookie("username", username, 365);
         if (password != "" && password != null) {
+            setCookie("username", username, 365);
             setCookie("password", password, 365);
             window.location.href = "./index.html"
         } 
